@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    }
+    .banner{
+        width: 100%;
+        height: 20%;
+     background-color:#9e7175;
+    }
+     .navbar{
+        width: 85%;
+        margin: auto;
+        padding: 20px 120px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        text-align: center;
+    
+    } 
+    .logo{
+        width: 120px;
+        cursor: pointer;
+    }
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+    
+    }
+    
+    .navbar ul li a:hover {
+        width: 100%;
+        border-bottom: 2px solid #f7f318;
+    }
+    /* nav end */
+    
+    /* ***************************** */
+    .bar {
+        background-color: #40404e; 
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+        color: white;
+    }
+
+    .bar a {
+        color:#E47277 ; 
+        text-decoration: none; 
+        margin-right: 15px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .bar a:hover {
+        border-bottom: 2px solid #f7f318;
+
+    }
+
+    .bar span {
+        color: white;
+        font-size: 14px;
+    }
+
+    .section {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #fff;
+    }
+    
+    .section h1 {
+        font-size: 2.5em;
+        color: #E47277; 
+        margin-bottom: 10px;
+    }
+    .icon img{
+        width: 100px;
+    }
+    
+    .section p.subtitle {
+        font-size: 1.2em;
+        color: #7d7d7d;
+        margin-bottom: 40px;
+    }
+    
+    .content-box {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 2px  #ddd; 
+        border-radius: 10px;
+        /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05); */
+    }
+    
+    .content-box p {
+        font-size: 1em;
+        color: #6b6b6b;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+
+    
+    /* ***************** */
+    h1 {
+        text-align: center;
+        font-size: 36px;
+        margin: 20px 0;
+        color: #E47277;
+      }
+  
+      .team-container {
+        display: grid;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-between; */
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+  
+      .team-member {
+        text-align: center;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        transition: transform 0.3s;
+      }
+  
+      .team-member:hover {
+        transform: scale(1.05);
+      }
+  
+      .team-member img {
+        width: 100%;
+        height: 250px;
+        /* border-radius: 5%; */
+        margin-bottom: 15px;
+      }
+  
+      .team-member h2 {
+        font-size: 20px;
+        color: #333;
+        margin: 10px 0 5px;
+      }
+  
+      .team-member p {
+        font-size: 16px;
+        color: #777;
+        margin-bottom: 15px;
+      }
+  
+      .social-links a {
+        margin: 0 5px;
+        color: #3b3738;
+        text-decoration: none;
+        font-size: 20px;
+      }
+  
+      .social-links a:hover {
+        color: #c1547c;
+      }
+
+    .footer {
+        background-color: #333; 
+        color: #fff; 
+        text-align: center;
+        padding: 15px 0;
+    }
+    
+    .footer a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 18px;
+    }
+    
+    .footer a:hover {
+        color: #ff69b4; 
+    }
+    
+    .footer i {
+        margin: 0 8px;
+        padding: 10px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .footer i:hover {
+        background-color: #9e7175; 
+        color: #333; 
+    }
